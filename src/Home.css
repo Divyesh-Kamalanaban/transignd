@@ -1,0 +1,30 @@
+              
+.Row{
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  white-space: nowrap;
+  font-size: 30px;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+  top: -50%;
+}
+.icons{
+  height: 30px;
+  margin: 5px;
+}
+
+.home-green {
+  background-image: url('./home-bg-green.png');
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents repeating of the background image */
+}
+
+.cutoff-left{
+  /*   */
+  clip-path: circle(85.6% at 100% 51%) !important ;           
+}
